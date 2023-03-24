@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" 
+            crossorigin="anonymous">
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <title>Exercicio 1</title>
+        <link rel="shortcut icon" href="./img/gato.webp" type="image/x-icon">
+    </head>
+    <body>
+        <div>
+            <h1>Seja Bem Vindo</h1>
+                <ul>
+                    <p class="pul">Taxas de peso</p>
+                    <li>1kg a 10kg - Acressimo de 5%</li>
+                    <li>11kg a 25kg - Acressimo de 15%</li>
+                    <li>26kg a 50kg - Acressimo de 25%</li>
+                    <li>mais de 50kg - Acressimo de 35%</li>
+                </ul>
+                <ul>
+                    <p class="pul">Taxas de frete</p>
+                    <li>Rapido - Acressimo de 25%</li>
+                    <li>Regular - Acressimo de 10%</li>
+                    <li>Economico - Acressimo de 5%</li>
+                </ul>
+                <ul class="ul">
+                    <p class="pul">Taxas e descontos</p>
+                    <li>As taxas são aplicadas mediantes os quilometros rodados</li>
+                    <li>Distancias menores de 35km recebem 5% de desconto, e distancia maiores de 70km recebem um acressimo de 10%</li>
+                    <li>Fretes com 4 ou mais produtos recebem 5% de desconto</li>
+                </ul>
+                <p id="saida"></p>
+            <button onclick="calc()" >Calcule o frete</button>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
