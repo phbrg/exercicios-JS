@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" 
+            crossorigin="anonymous">
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <title>Exercicio 1</title>
+        <link rel="shortcut icon" href="./img/gato.webp" type="image/x-icon">
+    </head>
+    <body>
+        <div>
+            <h1>Seja Bem Vindo</h1>
+            <ul>
+                <p class="pul">Taxas de frete</p>
+                <li><b>Frete rapido</b> - Acressimo de 10%</li>
+                <li><b>Frete regular</b> - Acressimo de 5%</li>
+                <li><b>Frete economico</b> - desconto de 5%</li>
+            </ul>
+                <ul>
+                    <p class="pul">Taxas de peso</p>
+                    <li><b>1kg a 10kg</b> - Acressimo de 1.2</li>
+                    <li><b>11kg a 25kg</b> - Acressimo de 1.5</li>
+                    <li><b>26kg a 50kg</b> - Acressimo de 1.8</li>
+                    <li><b>mais de 50kg</b> - Acressimo de 2</li>
+                </ul>
+                <ul class="ul">
+                    <p class="pul">Taxas e descontos</p>
+                    <li>As taxas são medidas apartir de um valor padrão, R$0,15 o quilometro</li>
+                    <li><b>5% de desconto</b> para distancias menores de 100km</li>
+                    <li><b>5% de desconto</b> para 10 ou mais produtos no frete</li>
+                    <li><b>10% de acrescimo</b> para distancias maiores de 250km</li>
+                </ul>
+                <div class="saida">
+                    <p id="saida"></p>
+                    <p onclick="closee()" class="close">Fechar</p>
+                </div>
+            <button onclick="calc()" >Calcule o frete</button>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
